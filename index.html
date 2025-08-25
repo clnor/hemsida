@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Min hemsida – Clara</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<header class="site-header">
+		<div class="container">
+			<h1 class="site-title">Clara</h1>
+		</div>
+	</header>
+	<main class="site-main">
+		<div class="container">
+			<h2>Om mig</h2>
+			<p>Jag bygger min hemsida för att lära mig och utveckla mina färdigheter.</p>
+			<h3>Kontakt</h3>
+			<p>E-post: (läggs till senare)</p>
+		</div>
+	</main>
+	<footer class="site-footer">
+		<div class="container">
+			<p>&copy; <span id="year"></span> Clara</p>
+		</div>
+	</footer>
+	<script>
+		document.getElementById('year').textContent = new Date().getFullYear();
+	</script>
+</body>
+</html> 
